@@ -1,0 +1,61 @@
+
+
+*{
+  color:#444;
+}
+.Wrap{
+  -border:10px solid red;
+  width:1200px;
+  margin:auto;
+}
+.InputArea{
+  margin-top:5px;
+  background-color: yellow;
+  padding:20px;
+  text-align: center;
+}
+.Input{
+  margin:5px;
+  padding:10px;
+  padding-left:100px;
+  border-radius: 15px;
+  border:3px solid white; 
+}
+
+
+.Button{
+  border-radius: 10px;
+  border:none;
+  margin:5px;
+  padding:5px;
+}
+h1{
+  text-align: center;
+
+}
+.Box {
+  width: 300px;
+  border: 3px solid white;
+  border-radius: 10px;
+  height: 150px;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  -float:left;
+}
+
+
+.Outer {
+  padding-top: 30px;
+  width: 800px;
+  margin: 0 auto 0 auto;
+}
+.Scroll {
+  overflow: auto;
+  white-space: nowrap;
+  margin: 0 auto;
+  display: flex;
+}
